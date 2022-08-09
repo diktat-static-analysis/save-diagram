@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T14:05:47.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="jB9BlKqbVDFgmOSEgDnK" version="20.2.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-09T14:25:33.777Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="45ZKcL_t2dGefppS-onC" version="20.2.3" type="github" pages="3">
   <diagram id="DusGduxuzFebuArbpg9_" name="TestSuitesSource">
-    <mxGraphModel dx="1185" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SbZlyKQb2ZSINrOsMYrD-37" value="Frontend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="125" y="35" width="150" height="90" as="geometry" />
+          <mxGeometry x="125" y="35" width="185" height="125" as="geometry" />
         </mxCell>
         <mxCell id="SbZlyKQb2ZSINrOsMYrD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SbZlyKQb2ZSINrOsMYrD-1" target="SbZlyKQb2ZSINrOsMYrD-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SbZlyKQb2ZSINrOsMYrD-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="50" width="30" height="60" as="geometry" />
+          <mxGeometry x="40" y="80" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbZlyKQb2ZSINrOsMYrD-3" value="Backend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="290" y="50" width="200" height="60" as="geometry" />
+          <mxGeometry x="340" y="80" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbZlyKQb2ZSINrOsMYrD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="SbZlyKQb2ZSINrOsMYrD-4" target="SbZlyKQb2ZSINrOsMYrD-6">
           <mxGeometry relative="1" as="geometry" />
@@ -23,26 +23,29 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SbZlyKQb2ZSINrOsMYrD-4" value="User creates TestSuitesSource" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="140" y="50" width="120" height="60" as="geometry" />
+          <mxGeometry x="157.5" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbZlyKQb2ZSINrOsMYrD-6" value="Inputs:&lt;br&gt;- git repository&lt;br&gt;- git branch&lt;br&gt;- relative path in repository to tests" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="140" y="140" width="120" height="100" as="geometry" />
+          <mxGeometry x="157.5" y="170" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SbZlyKQb2ZSINrOsMYrD-8" value="Save TestSuitesSource in DB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="300" y="65" width="180" height="30" as="geometry" />
+          <mxGeometry x="350" y="95" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UiLx_oYMTA-cFAm2NQAQ-5" value="Organization level" style="swimlane;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="140" y="50" width="160" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="_gnJ4GAD-FqQd7wwLsJB" name="Fetch test suites">
-    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CG05eyDdkbELm0idpoyh-1" value="Backend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="30" y="70" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CG05eyDdkbELm0idpoyh-2" value="New tests" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="CG05eyDdkbELm0idpoyh-3" target="CG05eyDdkbELm0idpoyh-1">
+        <mxCell id="CG05eyDdkbELm0idpoyh-2" value="New tests with versioning" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="CG05eyDdkbELm0idpoyh-3" target="CG05eyDdkbELm0idpoyh-1">
           <mxGeometry x="0.0003" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -75,7 +78,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5kEFU4PwqvbWLSoEA5RZ" name="New run">
-    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,10 +100,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M_xkmyZ5dm_u-NmN4iCo-4" value="Backend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="345" y="40" width="140" height="40" as="geometry" />
+          <mxGeometry x="345" y="40" width="165" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M_xkmyZ5dm_u-NmN4iCo-5" value="Prepare execution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="355" y="45" width="120" height="30" as="geometry" />
+        <mxCell id="M_xkmyZ5dm_u-NmN4iCo-5" value="Prepare execution with preloaded test suites" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="355" y="45" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M_xkmyZ5dm_u-NmN4iCo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" target="M_xkmyZ5dm_u-NmN4iCo-4" source="M_xkmyZ5dm_u-NmN4iCo-2">
           <mxGeometry relative="1" as="geometry">
@@ -108,10 +111,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="M_xkmyZ5dm_u-NmN4iCo-10" value="Orchestrator" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="540" y="40" width="140" height="40" as="geometry" />
+          <mxGeometry x="540" y="40" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M_xkmyZ5dm_u-NmN4iCo-11" value="Initialize agents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="550" y="45" width="120" height="30" as="geometry" />
+        <mxCell id="M_xkmyZ5dm_u-NmN4iCo-11" value="Initialize agents in cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="550" y="45" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M_xkmyZ5dm_u-NmN4iCo-14" value="Trigger a new run" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="170" y="45" width="120" height="30" as="geometry" />
@@ -121,8 +124,11 @@
             <mxPoint x="110" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M_xkmyZ5dm_u-NmN4iCo-16" value="Select:&lt;br&gt;- evaluated tool&lt;br&gt;- test suites" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="60" y="120" width="100" height="90" as="geometry" />
+        <mxCell id="M_xkmyZ5dm_u-NmN4iCo-16" value="Select:&lt;br&gt;- evaluated tool&lt;br&gt;- test suites from the list of all community benchmarks (marketplace?)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IIL-0M1Tx_-ORQlPqapn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="M_xkmyZ5dm_u-NmN4iCo-16" target="M_xkmyZ5dm_u-NmN4iCo-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
